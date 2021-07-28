@@ -6,20 +6,13 @@ import org.neo4j.graphdb.Node;
 import org.neo4j.graphdb.Relationship;
 import org.neo4j.graphdb.RelationshipType;
 import org.neo4j.graphdb.factory.GraphDatabaseFactory;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 import java.io.File;
 
-@RestController
-public class NeoController {
-    @GetMapping("/")
-    public String home() {
-        String abc = playWithNeo();
-        return abc;
-    }
 
-    private String playWithNeo() {
+public class NeoController {
+
+    public static String playWithNeo() {
         StringBuilder aa = new StringBuilder();
         try {
             GraphDatabaseFactory graphDbFactory = new GraphDatabaseFactory();
@@ -45,6 +38,7 @@ public class NeoController {
             for (Relationship relationship : owner.getRelationships()) {
                 aa.append(relationship.getEndNode().getRelationshipTypes().toString());
             }
+            System.out.println("Done.....");
         } catch (Exception e) {
             e.printStackTrace();
         }

@@ -1,6 +1,6 @@
-package com.suraj.learninggraphdatabase;
+package com.suraj.learning;
 
-import com.suraj.learninggraphdatabase.neo.NeoController;
+import com.suraj.learning.neo.NeoController;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.suraj.learninggraphdatabase.neo;
+package com.suraj.learning.neo;
 
 import org.neo4j.graphdb.GraphDatabaseService;
 import org.neo4j.graphdb.Label;

@@ -1,4 +1,4 @@
-package com.suraj.learninggraphdatabase.neo.model;
+package com.suraj.learning.neo.model;
 
 import org.jgrapht.graph.DefaultWeightedEdge;
 

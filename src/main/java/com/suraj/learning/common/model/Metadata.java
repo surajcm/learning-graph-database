@@ -1,4 +1,4 @@
-package com.suraj.learninggraphdatabase.common.model;
+package com.suraj.learning.common.model;
 
 public class Metadata {
     private Long parent;

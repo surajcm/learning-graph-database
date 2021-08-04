@@ -171,7 +171,7 @@
 2021-07-20 11:31:25.809+0000 INFO [o.n.k.i.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
 2021-07-20 11:31:25.809+0000 INFO [o.n.k.i.DiagnosticsManager] user.country = IN
 2021-07-20 11:31:25.809+0000 INFO [o.n.k.i.DiagnosticsManager] sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home/lib
-2021-07-20 11:31:25.809+0000 INFO [o.n.k.i.DiagnosticsManager] sun.java.command = com.suraj.learninggraphdatabase.LearningGraphDatabaseApplication
+2021-07-20 11:31:25.809+0000 INFO [o.n.k.i.DiagnosticsManager] sun.java.command = com.suraj.learning.LearningGraphDatabaseApplication
 2021-07-20 11:31:25.809+0000 INFO [o.n.k.i.DiagnosticsManager] http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
 2021-07-20 11:31:25.809+0000 INFO [o.n.k.i.DiagnosticsManager] jdk.debug = release
 2021-07-20 11:31:25.809+0000 INFO [o.n.k.i.DiagnosticsManager] sun.cpu.endian = little
@@ -245,8 +245,8 @@ java.lang.IllegalAccessError: class org.neo4j.io.pagecache.impl.SingleFilePageSw
 	at org.neo4j.graphdb.factory.GraphDatabaseFactory$1.newDatabase(GraphDatabaseFactory.java:107)
 	at org.neo4j.graphdb.factory.GraphDatabaseBuilder.newGraphDatabase(GraphDatabaseBuilder.java:199)
 	at org.neo4j.graphdb.factory.GraphDatabaseFactory.newEmbeddedDatabase(GraphDatabaseFactory.java:75)
-	at com.suraj.learninggraphdatabase.neo.NeoController.playWithNeo(NeoController.java:23)
-	at com.suraj.learninggraphdatabase.neo.NeoController.home(NeoController.java:17)
+	at com.suraj.learning.neo.NeoController.playWithNeo(NeoController.java:23)
+	at com.suraj.learning.neo.NeoController.home(NeoController.java:17)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -473,7 +473,7 @@ java.lang.IllegalAccessError: class org.neo4j.io.pagecache.impl.SingleFilePageSw
 2021-07-20 13:23:13.351+0000 INFO [o.n.k.i.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
 2021-07-20 13:23:13.351+0000 INFO [o.n.k.i.DiagnosticsManager] user.country = IN
 2021-07-20 13:23:13.351+0000 INFO [o.n.k.i.DiagnosticsManager] sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home/lib
-2021-07-20 13:23:13.351+0000 INFO [o.n.k.i.DiagnosticsManager] sun.java.command = com.suraj.learninggraphdatabase.LearningGraphDatabaseApplication
+2021-07-20 13:23:13.351+0000 INFO [o.n.k.i.DiagnosticsManager] sun.java.command = com.suraj.learning.LearningGraphDatabaseApplication
 2021-07-20 13:23:13.351+0000 INFO [o.n.k.i.DiagnosticsManager] http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
 2021-07-20 13:23:13.351+0000 INFO [o.n.k.i.DiagnosticsManager] jdk.debug = release
 2021-07-20 13:23:13.351+0000 INFO [o.n.k.i.DiagnosticsManager] sun.cpu.endian = little
@@ -546,8 +546,8 @@ java.lang.IllegalAccessError: class org.neo4j.io.pagecache.impl.SingleFilePageSw
 	at org.neo4j.graphdb.factory.GraphDatabaseFactory$1.newDatabase(GraphDatabaseFactory.java:107)
 	at org.neo4j.graphdb.factory.GraphDatabaseBuilder.newGraphDatabase(GraphDatabaseBuilder.java:199)
 	at org.neo4j.graphdb.factory.GraphDatabaseFactory.newEmbeddedDatabase(GraphDatabaseFactory.java:75)
-	at com.suraj.learninggraphdatabase.neo.NeoController.playWithNeo(NeoController.java:31)
-	at com.suraj.learninggraphdatabase.neo.NeoController.home(NeoController.java:23)
+	at com.suraj.learning.neo.NeoController.playWithNeo(NeoController.java:31)
+	at com.suraj.learning.neo.NeoController.home(NeoController.java:23)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -807,7 +807,7 @@ java.lang.IllegalAccessError: class org.neo4j.io.pagecache.impl.SingleFilePageSw
 2021-07-20 13:26:07.559+0000 INFO [o.n.k.i.DiagnosticsManager] file.encoding = UTF-8
 2021-07-20 13:26:07.559+0000 INFO [o.n.k.i.DiagnosticsManager] catalina.home = /private/var/folders/nt/p1yqfpws2cn34cxkfc5xx6n4q_r7tx/T/tomcat.8080.8114910085784414686
 2021-07-20 13:26:07.559+0000 INFO [o.n.k.i.DiagnosticsManager] user.name = a-3133
-2021-07-20 13:26:07.559+0000 INFO [o.n.k.i.DiagnosticsManager] sun.java.command = com.suraj.learninggraphdatabase.LearningGraphDatabaseApplication
+2021-07-20 13:26:07.559+0000 INFO [o.n.k.i.DiagnosticsManager] sun.java.command = com.suraj.learning.LearningGraphDatabaseApplication
 2021-07-20 13:26:07.559+0000 INFO [o.n.k.i.DiagnosticsManager] sun.arch.data.model = 64
 2021-07-20 13:26:07.559+0000 INFO [o.n.k.i.DiagnosticsManager] user.language = en
 2021-07-20 13:26:07.559+0000 INFO [o.n.k.i.DiagnosticsManager] awt.toolkit = sun.lwawt.macosx.LWCToolkit
@@ -1162,7 +1162,7 @@ java.lang.IllegalAccessError: class org.neo4j.io.pagecache.impl.SingleFilePageSw
 2021-07-20 13:33:14.426+0000 INFO [o.n.k.i.DiagnosticsManager] file.encoding = UTF-8
 2021-07-20 13:33:14.426+0000 INFO [o.n.k.i.DiagnosticsManager] catalina.home = /private/var/folders/nt/p1yqfpws2cn34cxkfc5xx6n4q_r7tx/T/tomcat.8080.1812126822827281832
 2021-07-20 13:33:14.426+0000 INFO [o.n.k.i.DiagnosticsManager] user.name = a-3133
-2021-07-20 13:33:14.426+0000 INFO [o.n.k.i.DiagnosticsManager] sun.java.command = com.suraj.learninggraphdatabase.LearningGraphDatabaseApplication
+2021-07-20 13:33:14.426+0000 INFO [o.n.k.i.DiagnosticsManager] sun.java.command = com.suraj.learning.LearningGraphDatabaseApplication
 2021-07-20 13:33:14.426+0000 INFO [o.n.k.i.DiagnosticsManager] sun.arch.data.model = 64
 2021-07-20 13:33:14.426+0000 INFO [o.n.k.i.DiagnosticsManager] user.language = en
 2021-07-20 13:33:14.426+0000 INFO [o.n.k.i.DiagnosticsManager] awt.toolkit = sun.lwawt.macosx.LWCToolkit
@@ -1545,7 +1545,7 @@ java.lang.IllegalAccessError: class org.neo4j.io.pagecache.impl.SingleFilePageSw
 2021-07-27 13:25:41.205+0000 INFO [o.n.k.i.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
 2021-07-27 13:25:41.205+0000 INFO [o.n.k.i.DiagnosticsManager] user.country = IN
 2021-07-27 13:25:41.205+0000 INFO [o.n.k.i.DiagnosticsManager] sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib
-2021-07-27 13:25:41.205+0000 INFO [o.n.k.i.DiagnosticsManager] sun.java.command = com.suraj.learninggraphdatabase.LearningGraphDatabaseApplication
+2021-07-27 13:25:41.205+0000 INFO [o.n.k.i.DiagnosticsManager] sun.java.command = com.suraj.learning.LearningGraphDatabaseApplication
 2021-07-27 13:25:41.205+0000 INFO [o.n.k.i.DiagnosticsManager] http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
 2021-07-27 13:25:41.205+0000 INFO [o.n.k.i.DiagnosticsManager] jdk.debug = release
 2021-07-27 13:25:41.205+0000 INFO [o.n.k.i.DiagnosticsManager] sun.cpu.endian = little
@@ -1941,7 +1941,7 @@ java.lang.IllegalAccessError: class org.neo4j.io.pagecache.impl.SingleFilePageSw
 2021-07-27 14:57:19.262+0000 INFO [o.n.k.i.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
 2021-07-27 14:57:19.262+0000 INFO [o.n.k.i.DiagnosticsManager] user.country = IN
 2021-07-27 14:57:19.262+0000 INFO [o.n.k.i.DiagnosticsManager] sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib
-2021-07-27 14:57:19.262+0000 INFO [o.n.k.i.DiagnosticsManager] sun.java.command = com.suraj.learninggraphdatabase.LearningGraphDatabaseApplication
+2021-07-27 14:57:19.262+0000 INFO [o.n.k.i.DiagnosticsManager] sun.java.command = com.suraj.learning.LearningGraphDatabaseApplication
 2021-07-27 14:57:19.262+0000 INFO [o.n.k.i.DiagnosticsManager] http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
 2021-07-27 14:57:19.262+0000 INFO [o.n.k.i.DiagnosticsManager] jdk.debug = release
 2021-07-27 14:57:19.262+0000 INFO [o.n.k.i.DiagnosticsManager] sun.cpu.endian = little

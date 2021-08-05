@@ -1,8 +1,10 @@
 package com.suraj.learning.common.model;
 
+import java.util.Set;
+
 public class Metadata {
     private Long parent;
-    private Long[] children;
+    private Set<Long> children;
 
     public Long getParent() {
         return parent;
@@ -12,11 +14,11 @@ public class Metadata {
         this.parent = parent;
     }
 
-    public Long[] getChildren() {
+    public Set<Long> getChildren() {
         return children;
     }
 
-    public void setChildren(Long[] children) {
+    public void setChildren(Set<Long> children) {
         this.children = children;
     }
 }

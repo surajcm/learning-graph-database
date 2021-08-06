@@ -3,20 +3,22 @@ package com.suraj.learning.common.service;
 import com.suraj.learning.common.model.TGModel;
 import com.suraj.learning.common.model.TGNode;
 
-public interface TravelGuideCache<T extends TGNode> {
-    boolean insertNode(T node, boolean forceUpdate);
+import java.util.HashMap;
+import java.util.Map;
+import java.util.function.Consumer;
 
-    default void updateParentNode(Long parent, Long child, boolean insert) {
-        TGModel model = fetchNode(parent);
-        if (insert) {
-            model.getMetadata().getChildren().add(child);
-        } else {
-            model.getMetadata().getChildren().remove(child);
-        }
-        updateParentNode(parent, model);
+public interface TravelGuideCache extends TravelGuideCacheService<TGNode> {
+    Map<Long, TGModel> cache = new HashMap<>();
+    Consumer<TGNode> insert = node -> cache.put(node.getGaiaId(), node.getTgModel());
+    Consumer<TGNode> remove = node -> cache.remove(node.getGaiaId());
+
+    @Override
+    default boolean insertNode(TGNode node) {
+        return handleChildNode(node, insert, true);
     }
 
-    boolean removeChildNode(T node);
-    TGModel fetchNode(Long id);
-    public void updateParentNode(Long id, TGModel tgModel);
+    @Override
+    default boolean removeChildNode(TGNode node) {
+        return handleChildNode(node, remove, false);
+    }
 }
